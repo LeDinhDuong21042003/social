@@ -4,6 +4,7 @@ import Message from "../model/messageModel.js";
 import { getRecipientSocketId, io } from './../socket/socket.js';
 import cloudinary from 'cloudinary'
 
+
 const sendMessage = async (req,res) => {
     try {
         const {recipientId , message} = req.body 
